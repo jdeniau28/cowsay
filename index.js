@@ -2,7 +2,7 @@ const identite = require('./Information');
 const cowsay = require("cowsay");
 
 console.log(cowsay.say( {
-    text : "I'm a moooodule",
+    text :`Hi, my name is ${identite.name} and my campus ${identite.campus}` ,
     e : "oO",
     T : "U "
 }));
